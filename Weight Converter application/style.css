@@ -1,0 +1,51 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+  background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size: 100px 50px;
+  }
+
+
+section {
+  margin: 250px 0 0 400px;
+}
+
+button[type = 'submit']{
+  margin: 10px 0 0 150px;
+  width: 150px;
+  background: bisque;
+  outline: none;
+}
+
+select{
+  border: none; 
+  outline: none;
+  color: brown
+}
+
+
+h1{
+    margin: 30px 0 40px 120px;
+}
+
+@media only screen and (max-width: 992px) {
+  section {
+    margin: 250px 0 0 150px;
+  }
+  
+}
+
+
+@media only screen and  (max-width: 750px) {
+  section {
+    margin: 250px 0 0 0;
+  }
+  
+}
